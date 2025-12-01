@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos Numéricos - Réplica Exacta Python</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animation">
+    <div class="floating-shape shape-1"></div>
+    <div class="floating-shape shape-2"></div>
+    <div class="floating-shape shape-3"></div>
+    <div class="floating-shape shape-4"></div>
+</div>
+
+<div class="particles" id="particles"></div>
+    <div class="container">
+        <header>
+            <h1>🎯 DESAFÍO DE MÉTODOS NUMÉRICOS - RAICES DE ECUACIONES</h1>
+            <p>Desafío de Métodos Numéricos para la Determinación de Raíces</p>
+        </header>
+
+        <div class="problems-section">
+            <h2>Problemas Predefinidos</h2>
+            <div class="problems-grid">
+                <div class="problem-card" data-problem="1">
+                    <h4>🔷 PROBLEMA 1</h4>
+                    <p>x³ - e^(0.8x) = 20 entre x = 0 y x = 8</p>
+                </div>
+                <div class="problem-card" data-problem="2">
+                    <h4>🔷 PROBLEMA 2</h4>
+                    <p>3sin(0.5x) - 0.5x + 2 = 0</p>
+                </div>
+                <div class="problem-card" data-problem="3">
+                    <h4>🔷 PROBLEMA 3</h4>
+                    <p>x³ - x²e^(-0.5x) - 3x = -1</p>
+                </div>
+                <div class="problem-card" data-problem="4">
+                    <h4>🔷 PROBLEMA 4</h4>
+                    <p>cos²x - 0.5xe^(0.3x) + 5 = 0</p>
+                </div>
+            </div>
+        </div>
+
+        <button id="solve-all-btn" class="solve-button"> Ejecutar Análisis Completo</button>
+
+        <div class="results-section">
+            <h2> Resultados del Análisis</h2>
+            <div id="results" class="results">
+                <div class="placeholder">
+                    <p>Selecciona un problema y haz clic en "Ejecutar Análisis Completo"</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="summary-section" id="summary-section" style="display: none;">
+            <h2> RESUMEN FINAL - COMPARACIÓN DE LOS 3 MÉTODOS</h2>
+            <div id="summary-results"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
